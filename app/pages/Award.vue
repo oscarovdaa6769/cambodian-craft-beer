@@ -1,6 +1,6 @@
 <template>
   <div class="font-header bg-neutral-50 min-h-screen">
-    <main class="w-full max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8 md:py-12">
+    <main class="w-full mx-auto px-4 lg:px-[60px] py-8 md:py-12">
       
       <div class="text-center mb-8 md:mb-10">
         <h1 class="text-primary text-2xl sm:text-3xl md:text-4xl uppercase tracking-wide mb-2">
