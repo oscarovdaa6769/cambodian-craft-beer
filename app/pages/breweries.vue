@@ -111,6 +111,10 @@ const filteredBreweries = computed(() => {
     )
   })
 })
+
+definePageMeta({
+  layout: 'default'
+})
 </script>
 
 <template>

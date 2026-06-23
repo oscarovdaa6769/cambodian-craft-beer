@@ -8,7 +8,7 @@ const isOpen = ref(false)
   <nav class="font-header bg-background fixed top-0 left-0 w-full z-50 px-4 lg:px-[60px] border-b border-gray-200">
     <div class="flex items-center justify-between">
       
-      <div class="flex items-center gap-2 py-2">
+      <div class="flex items-center gap-2">
         <NuxtLink to="/home">
           <img src="/assets/images/logo1.png" alt="logo1" class="h-12 md:h-15">
         </NuxtLink>
@@ -25,7 +25,7 @@ const isOpen = ref(false)
         @click="isOpen = false"
         :class="[isOpen ? 'flex' : 'hidden', 'xl:flex absolute xl:relative top-full left-0 w-full xl:w-auto bg-background xl:bg-transparent flex-col xl:flex-row items-stretch xl:items-center border-b xl:border-none border-background h-[calc(100vh-74px)] xl:h-auto overflow-y-auto xl:overflow-visible']"
       >
-        <NuxtLink to="/home" class="nav"> 
+        <NuxtLink to="/" class="nav"> 
           <Icon name="solar:home-angle-2-bold-duotone" size="25px" class="text-primary icon" /> Home
         </NuxtLink>
         <NuxtLink to="/breweries" class="nav">
