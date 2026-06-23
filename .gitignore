@@ -1,3 +1,10 @@
+# Dependencies
+node_modules
+
+# Nuxt
+.nuxt
+.output
+
 # Logs
 logs
 *.log
