@@ -1,5 +1,5 @@
 <template>
-  <div class="min-h-screen   bg-gray-50">
+ 
 
     <!-- Hidden checkbox -->
     <input type="checkbox" id="menu-toggle" class="hidden peer"/>
@@ -53,11 +53,11 @@
         <li>
           <label for="menu-toggle">
             <NuxtLink
-                to="/"
+                to="/home"
                 class="flex items-center gap-3 px-6 py-4 transition-colors
                        focus:outline-none focus:ring-2 focus:ring-[#800020]
                        active:scale-95"
-                :class="route.path === '/' ? 'bg-[#800020] text-white' : 'text-[#800020] hover:bg-red-100'">
+                :class="route.path === '/home' ? 'bg-[#800020] text-white' : 'text-[#800020] hover:bg-red-100'">
               <span class="font-bold">Home</span>
             </NuxtLink>
           </label>
@@ -118,7 +118,7 @@
     </nav>
 
     
-  </div>
+
 </template>
 
 <script setup>
